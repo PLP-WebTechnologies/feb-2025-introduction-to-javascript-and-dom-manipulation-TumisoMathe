@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+header h1 {
+    color: #333;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#dynamicText {
+    font-size: 1.2em;
+    color: navy;
+}
+
+.styled {
+    font-style: italic;
+    color: green !important;
+    background-color: lightyellow;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.removable {
+    margin-right: 10px;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #777;
+}
